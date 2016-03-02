@@ -182,7 +182,9 @@ input.sp-selector-5:checked ~ .sp-content .sp-parallax-bg {
     float: left;
     text-align: center;
     opacity: 0.4; 
-  
+    transition: 0.8s 0.4s ease-in;/*паралакс эффект для видимости */
+    /*transition-property: opacity; /*возможно добавление других переменных для паралакс эффекта*/
+   /* transition-duration: ease-in 0.4s;/*паралакс эффект для видимости */
     
 }
 
