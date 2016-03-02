@@ -177,7 +177,8 @@ input.sp-selector-5:checked ~ .sp-content .sp-parallax-bg {
     padding: 0 60px;
     float: left;
     text-align: center;
-    opacity: 0.4;
+    opacity: 0.1; /*для усиления эффект уменьшил начальную точку видимости*/
+    transition: opacity linear 0.7s;  /*Одинаковая скорость от начала и до конца эффекта появления.*/
 }
 
 .sp-slider > li img{
